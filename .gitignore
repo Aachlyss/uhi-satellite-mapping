@@ -3,6 +3,9 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+.idea/
+input_features/
+target_labels/
 # C extensions
 *.so
 
