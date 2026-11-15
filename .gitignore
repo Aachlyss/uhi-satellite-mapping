@@ -221,3 +221,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Generated patches & stats
+dataset/
+
+# Trained weights & logs
+best_model.pth
+training_history.json

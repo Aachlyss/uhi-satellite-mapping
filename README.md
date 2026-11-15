@@ -1,2 +1,5 @@
 # uhi-satellite-mapping
 An end-to-end ML pipeline and web app for mapping city temperatures and predicting urban heat islands from Landsat data.
+
+A quick note for your project defense:
+The agent mentioned that the "val MAE is slightly optimistic" because the patches overlap and are randomly split. In Machine Learning, this is called Data Leakage (a tiny piece of a training image bleeds into a testing image). The agent is right that it is perfectly fine for this level of project, but if a professor asks you "What is one way to improve this model in the future?", you can sound incredibly professional by answering: "Currently, the train/test split is random. To improve the strictness of the evaluation, I would implement a spatial split, ensuring the training set and testing set come from entirely different geographic sides of the city to prevent data leakage."
